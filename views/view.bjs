@@ -1,7 +1,7 @@
 
         <main>
             <h1>hello from bladejs</h1>
-            {{-- <h2>{{ $myVar }}</h2> --}}
+            <h2>{{ myVar }}</h2>
             <ul>
                 @for (let i = 0; i < 10; i++)
                     <li>The current value is {{ i }}</li>
